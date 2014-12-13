@@ -24,8 +24,12 @@ function addCss(cssString) {
 }
 
 addCss(
-    'tbody#expense-claim-lines-body td[headers=date] '
+    'thead#expense-claim-lines-header th#total '
+  +     '{ text-align: right !important; padding-right: 12px; }'
+  + 'tbody#expense-claim-lines-body td[headers=date] '
   +     '{ text-align: right !important; }'
+  + 'thead#expense-claim-lines-header th#type, '
+  + 'thead#expense-claim-lines-header th#business-purpose, '
   + 'tbody#expense-claim-lines-body td[headers=type], '
   + 'tbody#expense-claim-lines-body td[headers=business-purpose] '
   +     '{ text-align: left !important; } '
