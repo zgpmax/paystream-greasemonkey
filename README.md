@@ -27,3 +27,8 @@ over-enthusiastic about fonts and decided to style the entire site in
 'VAGRoundedLight'.  Fancy fonts are all well and good for headings and
 callouts, but using one across the entire site is tiring.  This script adds
 CSS to re-set the font to something a bit less wearing: sans-serif.
+
+## PayStream_Fix_Banking_Table_Alignment.user.js
+
+Similar to PayStream_Expenses_Table_Alignment.user.js but works for the
+banking page.
