@@ -8,11 +8,17 @@ with the PayStream Portal.
 
 ## PayStream_Expenses_Total.user.js
 
+Update 2016-02-17: No longer needed --- they appear to have added a total
+to the expenses page.
+
 Incredibly, the PayStream Portal expenses page does not provide a total of
 the expenses on the page.  This script computes the total and adds it at the
 bottom of the table.
 
 ## PayStream_Expenses_Table_Alignment.user.js
+
+Update 2016-02-17: Appears to no longer be needed --- expenses page alignment
+seems to be sane without this.
 
 Bizarrely, the PayStream Portal expense page formats the 'Type', and
 'Business Purpose' columns centre aligned.  This makes then incredibly
@@ -29,6 +35,9 @@ callouts, but using one across the entire site is tiring.  This script adds
 CSS to re-set the font to something a bit less wearing: sans-serif.
 
 ## PayStream_Fix_Banking_Table_Alignment.user.js
+
+Update 2016-02-17: Appears to no longer be needed --- banking page alignment
+seems to be sane without this.
 
 Similar to PayStream_Expenses_Table_Alignment.user.js but works for the
 banking page.
